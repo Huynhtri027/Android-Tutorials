@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kerem.loginscreen.MainActivity"
+    android:background="@drawable/background2">
+
+   <LinearLayout
+       android:gravity="center"
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_centerVertical="true"
+       android:layout_centerHorizontal="true">
+
+       <TextView
+           android:layout_marginBottom="20dp"
+           android:id="@+id/textView_error"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:text="All blanks must be accepted"
+           android:textAlignment="center"
+           android:textColor="#BDBDBD" />
+
+       <EditText
+           android:id="@+id/editText_username"
+           android:layout_width="250dp"
+           android:layout_height="50dp"
+           android:layout_weight="1"
+           android:background="@drawable/oval"
+           android:ems="10"
+           android:hint="First Name"
+           android:inputType="textPersonName"
+           android:textAlignment="center" />
+
+       <EditText
+
+           android:id="@+id/editText_email"
+           android:layout_width="250dp"
+           android:layout_height="50dp"
+           android:layout_gravity="center"
+           android:layout_marginTop="20dp"
+           android:layout_weight="1"
+           android:background="@drawable/oval"
+           android:ems="10"
+           android:hint="E-mail adress"
+           android:inputType="textEmailAddress"
+           android:textAlignment="center" />
+
+       <EditText
+           android:id="@+id/editText_password"
+           android:layout_width="250dp"
+           android:layout_height="50dp"
+           android:layout_marginTop="20dp"
+           android:layout_weight="1"
+           android:background="@drawable/oval"
+           android:ems="10"
+           android:hint="Password"
+           android:inputType="textPassword"
+           android:textAlignment="center" />
+
+       <EditText
+           android:id="@+id/editText_dateOfBirth"
+           android:layout_width="250dp"
+           android:layout_height="50dp"
+           android:layout_marginTop="20dp"
+           android:layout_weight="1"
+           android:background="@drawable/oval"
+           android:ems="10"
+           android:hint="Date of Birth"
+           android:inputType="date"
+           android:textAlignment="center" />
+
+       <CheckBox
+           android:id="@+id/checkBox"
+           android:layout_width="250dp"
+           android:layout_height="50dp"
+           android:layout_marginTop="20dp"
+           android:layout_weight="1"
+           android:background="@drawable/oval"
+           android:buttonTint="#60cca8"
+           android:paddingLeft="10dp"
+           android:text="I accept Terms and Conditions"
+           android:textColor="#3fadd1"
+           android:textStyle="bold" />
+
+       <Button
+           android:id="@+id/button"
+           android:layout_width="250dp"
+           android:layout_height="50dp"
+           android:layout_marginTop="20dp"
+           android:layout_weight="1"
+           android:background="@drawable/button_background_intro"
+           android:text="REGISTER"
+           android:textAppearance="@style/button_text_style"
+           android:textColor="#ffffff" />
+
+   </LinearLayout>
+
+</RelativeLayout>
