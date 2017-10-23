@@ -1,3 +1,5 @@
 Screenshot Preview of Projects:
 
-Basic User Login UI: https://i.hizliresim.com/NO1p6Y.jpg
+Basic User Login UI: https://goo.gl/3N54AY
+
+Basic User Register & Login UI: https://goo.gl/7acwFD
