@@ -9,14 +9,6 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
-/* IMPORTANT NOTES
-    Email must be valid like using @ sign
-    Password must be at least 6 values
-
-    minSdk: 20
-    add dependencies: compile 'com.google.firebase:firebase-auth:10.0.1'
-    internet permission might be needed
- */
     public class MainActivity extends AppCompatActivity {
 
     EditText editText_todo;
@@ -41,6 +33,8 @@ import com.google.firebase.database.FirebaseDatabase;
             public void onClick(View view) {
                 String todo = editText_todo.getText().toString();
                 noteRef.child("todolist").push().setValue(todo);
+                
+                //push() always pushes new value to given child
             }
         });
 
