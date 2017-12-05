@@ -4,6 +4,8 @@ import android.widget.RatingBar;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
+    
+    //We can decide how much starts we will add in XML with "numStars"
 
     RatingBar ratingBar;
     TextView textView_choosed, textView_howMany;
