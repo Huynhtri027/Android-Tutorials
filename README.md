@@ -19,3 +19,4 @@ Android Blogs
 Recommended Youtube Channels
 
 - Şerif Güngör: https://www.youtube.com/channel/UC_idPGrAxCPf4_AElf8enYw
+- EDMT Dev: https://www.youtube.com/channel/UCllewj2bGdqB8U9Ld15INAg
