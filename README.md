@@ -18,4 +18,4 @@ Android Blogs
 
 Recommended Youtube Channels
 
-- https://www.youtube.com/channel/UC_idPGrAxCPf4_AElf8enYw
+- Şerif Güngör: https://www.youtube.com/channel/UC_idPGrAxCPf4_AElf8enYw
