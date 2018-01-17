@@ -1,0 +1,40 @@
+{
+	"ogrenciler":[
+	{
+		"ogrenciNo":"1",
+		"ogrenciAdi":"Adı",
+		"ogrenciSoyadi":"Soyadı",
+		"bolumAdi":"Bilgisayar Mühendisliği",
+		"okulAdi":"İstanbul Üniversitesi",
+		"ogrenciSinif":"3"
+	},
+	
+	{
+		"ogrenciNo":"2",
+		"ogrenciAdi":"Ahmet",
+		"ogrenciSoyadi":"Soyadı",
+		"bolumAdi":"Elektronik Mühendisliği",
+		"okulAdi":"Yeditepe Üniversitesi",
+		"ogrenciSinif":"4"
+	},
+	
+	{
+		"ogrenciNo":"3",
+		"ogrenciAdi":"Adı",
+		"ogrenciSoyadi":"Soyadı",
+		"bolumAdi":"Haberleşme Mühendisliği",
+		"okulAdi":"İstanbul Teknik Üniversitesi",
+		"ogrenciSinif":"2"
+	},
+	
+	{
+		"ogrenciNo":"4",
+		"ogrenciAdi":"Adı",
+		"ogrenciSoyadi":"Soyadı",
+		"bolumAdi":"Bilgisayar Mühendisliği",
+		"okulAdi":"İstanbul Üniversitesi",
+		"ogrenciSinif":"3"
+	},
+
+	
+]}
