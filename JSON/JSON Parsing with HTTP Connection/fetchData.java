@@ -14,6 +14,8 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 
+//tutorial_credits : https://www.youtube.com/watch?v=Vcn4OuV4Ixg
+
 public class fetchData extends AsyncTask<Void,Void,Void> {
     String data = "";
     String dataParsed = "";
