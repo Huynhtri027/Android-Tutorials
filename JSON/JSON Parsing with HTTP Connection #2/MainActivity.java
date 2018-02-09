@@ -1,4 +1,5 @@
 package dailyquotes.kerem.jsonseries_4;
+//tutorial_credits: https://www.youtube.com/watch?v=bFMvE-zSjGE&list=PLgjt1h_kabFebUn1anGYZ6_Tfkw64Ww12&index=15
 
 import android.os.AsyncTask;
 import android.renderscript.ScriptGroup;
