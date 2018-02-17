@@ -1,6 +1,3 @@
-package dailyquotes.kerem.openweatherapi;
-
-import android.app.ProgressDialog;
 import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
