@@ -1,5 +1,3 @@
-package forwhatsapp.speechtotext.speechtotext_for_whatsapp;
-
 import android.content.Context;
 import android.content.Intent;
 import android.net.ConnectivityManager;
