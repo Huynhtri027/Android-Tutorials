@@ -1,5 +1,3 @@
-package forwhatsapp.speechtotext.oop_series_getset;
-
 import android.graphics.ColorSpace;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
