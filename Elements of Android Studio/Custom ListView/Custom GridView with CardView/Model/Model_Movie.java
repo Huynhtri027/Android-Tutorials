@@ -1,9 +1,3 @@
-package forwhatsapp.speechtotext.oop_series_getset.Model;
-
-/**
- * Created by Kerem on 18.02.2018.
- */
-
 public class Model_Movie {
     String movieName;
     int movieYear;
