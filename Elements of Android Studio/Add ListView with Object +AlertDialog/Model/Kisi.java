@@ -1,9 +1,3 @@
-package com.example.kerem.denemelist.Model;
-
-/**
- * Created by Kerem on 22.02.2018.
- */
-
 public class Kisi {
     private String ad;
 
