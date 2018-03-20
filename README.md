@@ -6,7 +6,8 @@ Basic User Register & Login UI: https://goo.gl/7acwFD
 
 Basic TodoList with SQLite: https://goo.gl/mZEKcy
 
-
+Retrofit
+- https://www.youtube.com/playlist?list=PLpUMhvC6l7APq7y_FFfK-GEHvcUKqo6SC
 
 Android UI/UX Links
 - Material.io/colors: https://material.io/guidelines/style/color.html
