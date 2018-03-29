@@ -1,5 +1,3 @@
-package com.example.keremoflu.chatcustom.Model;
-
 import android.graphics.ColorSpace;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -14,10 +12,6 @@ import java.util.List;
 
 import static com.example.keremoflu.chatcustom.Model.Mesaj.ADMIN_TYPE;
 import static com.example.keremoflu.chatcustom.Model.Mesaj.USER_TYPE;
-
-/**
- * Created by Kerem Oflu on 28.03.2018.
- */
 
 public class ChatAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>{
     RecyclerView.ViewHolder viewHolder;
@@ -60,11 +54,11 @@ public class ChatAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>{
             Mesaj mesaj = mesajList.get(position);
             switch (mesaj.getType()){
                 case ADMIN_TYPE:
-                    ((OneViewHolder)holder).chat_polify_text.setText(mesaj.getMessage());
+                    ((OneViewHolder)holder).first_layout_textView.setText(mesaj.getMessage());
                     break;
 
                 case USER_TYPE:
-                            ((TwoViewHolder)holder).chat_polify_user_text.setText(mesaj.getMessage());
+                            ((TwoViewHolder)holder).second_layout_textView.setText(mesaj.getMessage());
                         break;
             }
     }
@@ -76,22 +70,22 @@ public class ChatAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>{
 
     class OneViewHolder extends RecyclerView.ViewHolder{
         ImageView chat_polify_image;
-        TextView chat_polify_text;
+        TextView first_layout_textView;
 
         public OneViewHolder(View itemView) {
             super(itemView);
             chat_polify_image = (ImageView)itemView.findViewById(R.id.chat_polify_image);
-            chat_polify_text = (TextView) itemView.findViewById(R.id.chat_polify_text);
+            first_layout_textView = (TextView) itemView.findViewById(R.id.first_layout_textView);
         }
     }
 
 
     class TwoViewHolder extends RecyclerView.ViewHolder{
-        TextView chat_polify_user_text;
+        TextView second_layout_textView;
 
         public TwoViewHolder(View itemView) {
             super(itemView);
-            chat_polify_user_text = (TextView) itemView.findViewById(R.id.chat_polify_user_text);
+            second_layout_textView = (TextView) itemView.findViewById(R.id.second_layout_textView);
         }
     }
 
