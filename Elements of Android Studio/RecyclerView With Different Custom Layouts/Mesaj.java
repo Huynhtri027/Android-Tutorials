@@ -1,9 +1,3 @@
-package com.example.keremoflu.chatcustom.Model;
-
-/**
- * Created by Kerem Oflu on 28.03.2018.
- */
-
 public class Mesaj {
     private String message;
     private int type;
