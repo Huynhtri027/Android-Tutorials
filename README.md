@@ -26,3 +26,4 @@ Recommended Youtube Channels
 My Frequent Compile
 
 - Recyclerview: compile 'com.android.support:recyclerview-v7:26.1.0'
+- CardView:     compile 'com.android.support:cardview-v7:26.1.0'
