@@ -21,3 +21,8 @@ Recommended Youtube Channels
 
 - Şerif Güngör: https://www.youtube.com/channel/UC_idPGrAxCPf4_AElf8enYw
 - EDMT Dev: https://www.youtube.com/channel/UCllewj2bGdqB8U9Ld15INAg
+
+
+My Frequent Compile
+
+- Recyclerview: compile 'com.android.support:recyclerview-v7:26.1.0'
