@@ -22,7 +22,7 @@ import java.util.TimerTask;
 
 import me.relex.circleindicator.CircleIndicator;
 
-public class AnketList extends AppCompatActivity {
+public class ViewPagerExample extends AppCompatActivity {
 
     private ViewPager viewPager_surveys;
     private ViewPager viewpager;
