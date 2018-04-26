@@ -42,7 +42,7 @@ public class ViewPagerExample extends AppCompatActivity {
 
 
 
-
+	//auto swipe view pager with 3 seconds delay and period
     public void set_header_timer(final ViewPager viewpager, int delay, int period){
         Timer T=new Timer();
         T.scheduleAtFixedRate(new TimerTask() {
