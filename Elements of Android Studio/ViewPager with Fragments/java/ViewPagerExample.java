@@ -8,13 +8,6 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 
-import com.bhargavms.podslider.PodSlider;
-import com.example.keremoflu.anketlisteleme.Adapter.SurveyListAdapter;
-import com.example.keremoflu.anketlisteleme.Fragment.AnnounceAdapterFragment;
-import com.example.keremoflu.anketlisteleme.Fragment.FragmentHeaderAdapter;
-import com.example.keremoflu.anketlisteleme.Fragment.Fragment_WebServices.FragmentWebServices;
-import com.example.keremoflu.anketlisteleme.Model.ItemModel;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Timer;
