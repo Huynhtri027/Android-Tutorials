@@ -36,8 +36,10 @@ public class Shared extends AppCompatActivity {
                 pairs[1] = new Pair<View, String>(textView, "transition_text");
 
                 ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation(Shared.this, pairs);
-
                 startActivity(intent, options.toBundle());
+                
+                //When user clicked image1 imageView, image and textview will be moved pairly
+                // 1- In both activities image1 and textview xml, should include 'android:transitionName="transition_image"'
             }
         });
     }
