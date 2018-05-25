@@ -27,13 +27,13 @@ public class Shared extends AppCompatActivity {
         image1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Shared.this, Shared2.class);
+                Intent intent = new Intent(SharedAnimations.this, Shared2.class);
 
                 Pair[] pairs = new Pair[2];
                 pairs[0] = new Pair<View, String>(image1, "transition_image");
                 pairs[1] = new Pair<View, String>(textView, "transition_text");
 
-                ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation(Shared.this, pairs);
+                ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation(SharedAnimations.this, pairs);
                 startActivity(intent, options.toBundle());
                 
                 //When user clicked image1 imageView, image and textview will be moved pairly
