@@ -25,8 +25,8 @@ Recommended Youtube Channels
 
 My Frequent Compile
 
-- Recyclerview: compile 'com.android.support:recyclerview-v7:26.1.0'
-- CardView: compile 'com.android.support:cardview-v7:26.1.0'
-- Glide: compile 'com.github.bumptech.glide:glide:3.8.0'
-- Retrofit: compile 'com.squareup.retrofit2:retrofit:2.1.0'
-- GSONConverter: compile 'com.squareup.retrofit2:converter-gson:2.1.0'
+- Recyclerview: implementation 'com.android.support:recyclerview-v7:26.1.0'
+- CardView: implementation 'com.android.support:cardview-v7:26.1.0'
+- Glide: implementation 'com.github.bumptech.glide:glide:3.8.0'
+- Retrofit: implementation 'com.squareup.retrofit2:retrofit:2.1.0'
+- GSONConverter: implementation 'com.squareup.retrofit2:converter-gson:2.1.0'
